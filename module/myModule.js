@@ -1,6 +1,5 @@
 const myWebAddress = "richard.com"
 module.exports = myWebAddress
-console.log(module)
 
 const myNumber = 30
 const myArray = [10,20,30]
@@ -14,3 +13,4 @@ module.exports = {
     myArray,
     user
 }
+console.log(module.exports)
