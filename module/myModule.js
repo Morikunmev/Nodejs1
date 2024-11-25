@@ -14,3 +14,5 @@ module.exports = {
     user
 }
 console.log(module.exports)
+console.log("--------------------------------")
+console.log(module)
