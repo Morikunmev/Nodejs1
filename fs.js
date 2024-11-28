@@ -10,6 +10,9 @@ const fs = require("fs");
 //     flag: 'a'
 // })
 
+console.log(fs)
+console.log("--------------------------------")
+
 fs.readFile("./data/firts.txt", "utf-8", (error, data) => {
   if (error) {
     console.log(error);
